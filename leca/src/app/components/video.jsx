@@ -1,5 +1,5 @@
 import Image from "next/image";
-export default function Video({nombre, description, tailwind}){
+export default function Preview({nombre, description, tailwind}){
     return(
         <div className={`${tailwind} h-[187px] w-11/12 bg-center bg-cover flex flex-col justify-center self-center rounded-md`}>
             <Image className=" absolute self-center" src={"/play_circle.svg"} width={40} height={40}></Image>
